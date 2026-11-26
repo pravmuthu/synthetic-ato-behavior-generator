@@ -1,0 +1,77 @@
+{
+  "marketplace": {
+    "description": "Third-party seller portal with billing, staff, and customer records",
+    "raw_event_types": {
+      "home": "seller_dashboard_viewed",
+      "routine": "orders_viewed",
+      "profile": "seller_profile_viewed",
+      "security": "security_settings_viewed",
+      "security_write": "recovery_email_updated",
+      "financial": "payout_history_viewed",
+      "destination": "payout_bank_viewed",
+      "financial_write": "payout_bank_updated",
+      "team": "seller_team_viewed",
+      "role_write": "seller_user_invited",
+      "search": "customer_records_searched",
+      "record": "customer_record_viewed",
+      "export": "customer_records_exported",
+      "routine_detail": "order_details_viewed",
+      "routine_write": "shipment_status_updated",
+      "security_read": "recovery_options_viewed",
+      "team_read": "team_roles_viewed",
+      "help": "seller_help_center_viewed",
+      "notification": "seller_notifications_viewed",
+      "settings": "seller_preferences_viewed"
+    }
+  },
+  "saas": {
+    "description": "Business SaaS application with billing, users, and workspace data",
+    "raw_event_types": {
+      "home": "workspace_home_viewed",
+      "routine": "project_queue_viewed",
+      "profile": "user_profile_viewed",
+      "security": "account_security_viewed",
+      "security_write": "recovery_method_updated",
+      "financial": "billing_history_viewed",
+      "destination": "billing_destination_viewed",
+      "financial_write": "billing_destination_updated",
+      "team": "workspace_members_viewed",
+      "role_write": "workspace_admin_invited",
+      "search": "private_documents_searched",
+      "record": "private_document_viewed",
+      "export": "workspace_documents_exported",
+      "routine_detail": "project_task_viewed",
+      "routine_write": "project_task_updated",
+      "security_read": "recovery_factors_viewed",
+      "team_read": "workspace_roles_viewed",
+      "help": "workspace_help_center_viewed",
+      "notification": "workspace_notifications_viewed",
+      "settings": "workspace_preferences_viewed"
+    }
+  },
+  "business_banking": {
+    "description": "Corporate banking (not personal retail banking): delegated administrators and documents",
+    "raw_event_types": {
+      "home": "corporate_dashboard_viewed",
+      "routine": "account_statement_viewed",
+      "profile": "authorized_user_profile_viewed",
+      "security": "business_security_settings_viewed",
+      "security_write": "recovery_contact_updated",
+      "financial": "payment_history_viewed",
+      "destination": "beneficiaries_viewed",
+      "financial_write": "beneficiary_updated",
+      "team": "authorized_signatories_viewed",
+      "role_write": "business_operator_invited",
+      "search": "corporate_documents_searched",
+      "record": "corporate_document_viewed",
+      "export": "corporate_documents_exported",
+      "routine_detail": "statement_line_viewed",
+      "routine_write": "statement_item_annotated",
+      "security_read": "recovery_controls_viewed",
+      "team_read": "signatory_permissions_viewed",
+      "help": "banking_help_center_viewed",
+      "notification": "banking_notifications_viewed",
+      "settings": "banking_preferences_viewed"
+    }
+  }
+}

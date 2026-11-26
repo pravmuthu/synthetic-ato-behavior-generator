@@ -1,0 +1,15 @@
+# Generated data (excluded from Git)
+ato_v3_*/
+world_seed*/
+data/
+output/
+*.csv
+# Python temp files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Generated diagnostics
+validation_report.json
+generation_manifest.json
+behavioral_overlap_audit.json
