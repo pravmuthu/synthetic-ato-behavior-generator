@@ -63,20 +63,23 @@ Use distinct simulated worlds for training, validation, and testing. Keep `episo
 ## Using and Sharing the Generator
 
 This repository provides an open research tool for generating synthetic Account Takeover (ATO) datasets.
+
 Researchers, cybersecurity professionals, and machine learning practitioners can use the generator to:
 
-Generate reproducible synthetic authentication and behavioral datasets.
-Evaluate account takeover detection strategies.
-Compare authentication-only and post-login behavioral detection approaches.
-Study detection timing, false positives, and different attacker objectives.
-Extend the simulation with additional behavioral scenarios and application configurations.
+- Generate reproducible synthetic authentication and behavioral datasets.
+- Evaluate account takeover detection strategies.
+- Compare authentication-only and post-login behavioral detection approaches.
+- Study detection timing, false positives, and different attacker objectives.
+- Extend the simulation with additional behavioral scenarios and application configurations.
 
 Generated datasets can be shared independently through research data repositories such as Zenodo, with appropriate versioning and documentation.
 
-## License and citation
+## License and Citation
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-Researchers and developers are welcome to use, modify, and distribute the generator in accordance with the license terms.
-If you use this generator in academic research, please acknowledge the project and cite the corresponding repository.
-A formal citation file and DOI may be added with a future versioned research release.
-For methodology, assumptions, and limitations, refer to METHODOLOGY_AND_LIMITATIONS.md.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Researchers and developers may use, modify, and distribute the generator in accordance with the MIT License.
+
+If you use this generator in academic research, please cite the project using the repository's citation information.
+
+For methodology, assumptions, and limitations, see [METHODOLOGY_AND_LIMITATIONS.md](METHODOLOGY_AND_LIMITATIONS.md).
