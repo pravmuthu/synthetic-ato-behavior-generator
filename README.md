@@ -1,4 +1,4 @@
-# Synthetic Account Takeover (ATO) Behavior Generator — V3.2
+# Synthetic Account Takeover (ATO) Behavior Generator
 
 A configurable **synthetic** data generator for research on a single question:
 
@@ -60,10 +60,23 @@ Generated data include `sessions.csv`, `authentication_events.csv`, `activity_ev
 
 Use distinct simulated worlds for training, validation, and testing. Keep `episode_ground_truth.csv` and `session_ground_truth.csv` out of model inputs. For T+30/T+60/T+300 checkpoints, include only activity observed by that point in time. See `METHODOLOGY_AND_LIMITATIONS.md` for additional guidance.
 
-## How to share
+## Using and Sharing the Generator
 
-Publish these source files on a public GitHub repository (GitHub → **New repository** → upload these files → **Commit changes**). Do **not** upload generated multi-million-row CSVs to a normal Git repository. If sharing generated datasets later, use a separate archive or dataset-hosting service with clear versions and metadata.
+This repository provides an open research tool for generating synthetic Account Takeover (ATO) datasets.
+Researchers, cybersecurity professionals, and machine learning practitioners can use the generator to:
+
+Generate reproducible synthetic authentication and behavioral datasets.
+Evaluate account takeover detection strategies.
+Compare authentication-only and post-login behavioral detection approaches.
+Study detection timing, false positives, and different attacker objectives.
+Extend the simulation with additional behavioral scenarios and application configurations.
+
+Generated datasets can be shared independently through research data repositories such as Zenodo, with appropriate versioning and documentation.
 
 ## License and citation
 
-**No open-source license has been assigned in this package.** Before inviting unrestricted reuse, add an appropriate `LICENSE` file (for example, MIT for code, after confirming ownership and any rights requirements), and identify the repository author(s). You can add a citation file or an archived release DOI later. The dataset, if published, may require a different license from the code.
+This project is licensed under the MIT License. See the LICENSE file for details.
+Researchers and developers are welcome to use, modify, and distribute the generator in accordance with the license terms.
+If you use this generator in academic research, please acknowledge the project and cite the corresponding repository.
+A formal citation file and DOI may be added with a future versioned research release.
+For methodology, assumptions, and limitations, refer to METHODOLOGY_AND_LIMITATIONS.md.
